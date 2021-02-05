@@ -1,0 +1,18 @@
+
+<p>All Users</p>
+<table >
+    <tr >
+        <th>Id</th>
+        
+         <th>name</th>
+         <th>email</th>
+       
+    </tr>
+    <tr *ngFor="let item of Users" >
+        <td>{{item.id}}</td>
+        <td>{{item.name}}</td>
+        <td>{{item.email}}</td>
+       
+        
+    </tr>
+</table>

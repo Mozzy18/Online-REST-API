@@ -1,0 +1,23 @@
+table{
+    width: 900px;
+    margin: 0px auto;
+    border: 2px solid rgb(15, 245, 168);
+    background-color: rgb(157, 238, 238);
+    border-radius: 10px;
+}
+
+th,td{
+   text-align: center;
+   border-bottom: 1px solid rgb(51, 236, 134);
+   border-radius: 3px;
+}
+
+tr:hover{
+background-color: rgb(118, 238, 182);
+}
+p{
+    text-align: center;
+    color:rgb(5, 37, 22) ;
+    font-style: italic;
+    font-size: 20px;
+}
